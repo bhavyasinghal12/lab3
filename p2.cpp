@@ -209,11 +209,11 @@ void circularLinkedList::display() {
 
 int main() {
     //And now you're free to do what you want...:)
-    circularLinkedList one;
-    one.Insert(5);
-    one.Insert(6);
-    one.Insert(7);
-    cout << one.countItems() << endl;
+    circularLinkedList cll;
+    cll.Insert(5);
+    cll.Insert(6);
+    cll.Insert(7);
+    cout << cll.countItems() << endl;
     one.InsertAt(1, 3);
     one.DeleteAt(3);
     one.display();
