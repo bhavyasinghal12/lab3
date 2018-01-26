@@ -195,11 +195,11 @@ void doublyLinkedList::display() {
 
 int main() {
 	//And now you're free to do what you want...:)
-	doublyLinkedList one;
-	one.Insert(5);
-	one.InsertAt(2, 4);
-	one.DeleteAt(2);
-	one.display();
+	doublyLinkedList dll;
+	dll.Insert(5);
+	dll.InsertAt(2, 4);
+	dll.DeleteAt(2);
+	dll.display();
 	cout << endl;
 	return 0;
 }
